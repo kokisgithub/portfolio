@@ -1,9 +1,32 @@
+body {
+  background-color: tomato;
+}
+
 header {
-  height: 400px;
-  padding-top: 200px;
+  background:url(../img/desk-1220052_1920.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+header img {
+  vertical-align: bottom;
+  line-height: 1.0em;
+}
+
+.card-img-overlay {
+  /* padding: 0; */
+  top: calc(50% - 0.5rem);
+}
+
+.card-img-overlay h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: sans-serif;
 }
 
 footer {
-  height: 100px;
-  padding-top: 50px;
+  height: 80px;
+  padding-top: 30px;
 }
