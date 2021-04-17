@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Portfolio</title>
   </head>
-
+  
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <div id="wrap">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">TOP <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">TOP<span class="sr-only">(current)</span></a>
             </li> 
-            <li class="nav-item active px-md-3">
+            <li class="nav-item active px-lg-3">
               <a class="nav-link" href="#profile">PROFILE</a>
             </li>
             <li class="nav-item active">
@@ -34,10 +35,10 @@
           </div>
         </div>
       </header>
-      <div class="container-fluid text-center px-0">
+      <div class="container-fluid text-center mx-auto px-0">
         <section id="profile" class="bg-warning">  
           <div class="row">
-            <div class="col px-0">
+            <div class="col">
               <p><h1>PROFILE</h1></p>
               <p>あ</p>
               <p>あ</p>
@@ -59,13 +60,49 @@
           <div class="row">
             <div class="col">
               <p><h1>WORKS</h1></p>
-              <div class="card mx-auto" style="width: 30rem;">
-                <img src="./img/mytop3.png" class="card-img-top" width="100%" height="100%">
-                <div class="card-body bg-light">
-                  <h5 class="card-title">個人的ランキング投稿サイト</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="https://laravelmytop3.herokuapp.com" target="_blank" class="btn btn-primary">開く</a>
-                  <a href="https://github.com/kokisgithub/MyTop3" target="_blank" class="btn btn-dark">GitHub</a>
+              <div class="card mx-auto" style="width: 40%;">
+                <img src="./img/mytop3.png" class="card-img-top">
+                <div class="card-body">
+                  <h6 class="card-title font-weight-bold py-3">個人的ランキング投稿サイト</h6>
+                  <div class="row pb-3">
+                    <div class="col">
+                      <div class="card-text">
+                        <p class="font-weight-bold">開発環境</p>
+                        <p>仮想マシン:VMware Workstation 15 Player</p>
+                        <p>OS:CentOS8.2</p>
+                        <p>言語:php7.4 HTML CSS</p>
+                        <p>Framework:Laravel6.2 Bootstrap4.5</p>
+                        <p>DB:MySQL8.0</p>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card-text">
+                        <p class="font-weight-bold">機能</p>
+                        <p>記事一覧/詳細画面</p>
+                        <p>記事投稿/編集/削除</p>
+                        <p>コメント投稿/削除</p>
+                        <p>ユーザー/管理者登録</p>
+                        <p>ユーザー/管理者ログイン</p>
+                        <p>プロフィール画像アップロード</p>
+                        <p>バリデーション</p>
+                        <p>DBリレーション</p>
+                        <p>タイトル検索</p>
+                        <p>ページネーション</p>
+                        <!-- <p>テスト:単体/HTTP/DB/ログイン/ログアウト</p> -->
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card-text">
+                        <p class="font-weight-bold">テスト</p>
+                        <p>単体</p>
+                        <p>HTTP</p>
+                        <p>DB</p>
+                        <p>ログイン/ログアウト</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="https://laravelmytop3.herokuapp.com" target="_blank" class="btn btn-sm btn-primary">開く</a>
+                  <a href="https://github.com/kokisgithub/MyTop3" target="_blank" class="btn btn-sm btn-dark">GitHub</a>
                 </div>
               </div>
             </div>
@@ -76,7 +113,7 @@
       <footer class="bg-secondary text-center text-white">
           <small>© 2021 Koki Masuda</small>
       </footer>
-      
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
