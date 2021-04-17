@@ -1,9 +1,13 @@
 body {
   font-size: 15px;
+  width: 100%;
+}
+
+#wrap {
+  overflow: hidden;
 }
 
 header {
-  width: 100%;
   height: auto;
   min-height: 40rem;
   background-image: url(../img/startup-593328_1920.jpg);
@@ -20,14 +24,13 @@ header {
 
 .card-img-overlay {
   padding-top: 10rem;
-  /* padding: 0;
-  top: calc(50% - 9rem); */
 }
 
 h1 {
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 5rem;
+  padding-bottom: 3rem;
 }
 
 .nav-link {
