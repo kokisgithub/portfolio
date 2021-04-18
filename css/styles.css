@@ -42,6 +42,24 @@ section {
   padding-bottom: 10%;
 }
 
+.card-body {
+  background-color: #ffffd0;
+}
+
+li {
+  padding-bottom: 6px;
+}
+
+h4 {
+  font-weight: bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h5 {
+  font-weight: bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 footer {
   height: 80px;
   padding-top: 30px;
