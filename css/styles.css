@@ -43,16 +43,16 @@ section {
 }
 
 .card-body {
-  background-color: #ffffd0;
+  background-color: #ffffe0;
 }
 
-li {
-  padding-bottom: 6px;
+.card-text li {
+  padding-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h4 {
-  font-weight: bold;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+.list-inline-item {
+  padding-right: 20px;
 }
 
 h5 {
