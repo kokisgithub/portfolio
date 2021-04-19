@@ -61,26 +61,28 @@
             <div class="col">
               <p><h1>WORKS</h1></p>
               <div class="card mx-auto" style="width: 85%;">
-                <img src="img/mytop3.png" class="card-img-top">
                 <div class="card-body">
-                  <h5 class="card-title py-md-5 py-sm-3">個人的ランキング投稿サイト</h5>
+                  <h4 class="card-title">個人的ランキング投稿サイト</h4>
+                  <h5 id="comment">Laravelで基本的な機能の実装を経験出来て、尚且つ「世間ではあまり知られていないけれど実は優れているもの」を<br/>発掘するきっかけになるサイトがあったら楽しいだろうという理由で作成しました。
+                  </h5>
+                  <img src="img/mytop3.png" class="card-img">
                   <div class="row pb-3 text-left justify-content-center">
                     <div class="col-md-4 col-sm-12">
                       <div class="card-text">
-                        <ul class="list-unstyled">
-                          <p><h5 class="pb-2">開発環境</h5></p>
+                        <ul class="list-unstyled" id="list">
+                          <p><h5 class="pb-2" id="item">開発環境</h5></p>
                           <li>仮想マシン: VMware Workstation 15 Player</li>
                           <li>OS: CentOS8.2</li>
-                          <li>言語: php7.4 / HTML / CSS</li>
+                          <li>言語: PHP7.4 / HTML / CSS</li>
                           <li>Framework: Laravel6.2 / Bootstrap4.5</li>
                           <li>DB: MySQL8.0</li>    
                         </ul>
                       </div>
                     </div>
                     <div class="col-md-7 col-sm-12">
-                      <p><h5 class="pb-2">機能</h5></p>
                       <div class="card-text">
-                        <ul class="list-inline">
+                        <ul class="list-inline" id="list">
+                          <p><h5 class="pb-2" id="item">機能</h5></p>
                           <li class="list-inline-item">記事一覧画面</li>
                           <li class="list-inline-item">記事詳細画面</li>
                           <li class="list-inline-item">記事投稿 / 編集 / 削除</li>
@@ -100,6 +102,48 @@
                   <div class="my-md-4 my-sm-2">
                     <a href="https://laravelmytop3.herokuapp.com" target="_blank" class="btn btn-lg btn-primary mr-5">開く</a>
                     <a href="https://github.com/kokisgithub/MyTop3" target="_blank" class="btn btn-lg btn-dark">GitHub</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card mx-auto" style="width: 85%;">
+                <div class="card-body">
+                  <h4 class="card-title">学習時間記録サイト</h4>
+                  <h5 id="comment">PHPのDateTimeクラスとPDOを使った初めての成果物です。</h5>
+                  <div class="row justify-content-center pt-md-4">
+                    <div class="col-md-6 col-sm-12">
+                      <img src="img/time_manager_index.png" class="card-img" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                      <img src="img/time_manager_result.png" class="card-img" style="width: 100%; height: 100%;">
+                    </div>
+                  </div>
+                  <div class="row pb-3 text-left justify-content-center">
+                    <div class="col-md-4 col-sm-12">
+                      <div class="card-text">
+                        <ul class="list-unstyled" id="list">
+                          <p><h5 class="pb-2" id="item">開発環境</h5></p>
+                          <li>仮想マシン: VMware Workstation 15 Player</li>
+                          <li>OS: CentOS8.0</li>
+                          <li>言語: PHP7.2 / HTML / CSS</li>
+                          <li>Bootstrap4.5</li>
+                          <li>DB: MySQL8.0</li>    
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                      <div class="card-text">
+                        <ul class="list-unstyled" id="list">
+                          <p><h5 class="pb-2" id="item">機能</h5></p>
+                          <li>日付と開始時刻、終了時刻及び差分の時間登録</li>
+                          <li>月別の合計時間 / 総合時間 / 総合登録件数 / 各登録内容の表示 </li>
+                          <li>登録内容削除</li>
+                          <li>トークンによるCSRF対策</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="my-md-4 my-sm-2">
+                    <a href="https://github.com/kokisgithub/time_manager" target="_blank" class="btn btn-lg btn-dark">GitHub</a>
                   </div>
                 </div>
               </div>

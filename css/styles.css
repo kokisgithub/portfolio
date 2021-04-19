@@ -1,5 +1,6 @@
 body {
   font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
 }
 
@@ -19,7 +20,6 @@ header {
 .card-img-overlay h1 {
   font-weight: bold;
   font-size: 5rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .card-img-overlay {
@@ -28,7 +28,6 @@ header {
 
 h1 {
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 5rem;
   padding-bottom: 3rem;
 }
@@ -42,22 +41,38 @@ section {
   padding-bottom: 10%;
 }
 
-.card-body {
+.card {
   background-color: #ffffe0;
-}
-
-.card-text li {
-  padding-bottom: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10rem;
 }
 
 .list-inline-item {
   padding-right: 20px;
 }
 
-h5 {
+.card-title {
   font-weight: bold;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.card-img {
+  padding-bottom: 2.5rem;
+}
+
+#item {
+  font-weight: bold;
+}
+
+#list li {
+  padding-bottom: 20px;
+}
+
+#comment {
+  margin-bottom: 4rem;
+  line-height: 2rem;
+  text-align: left;
+  display: inline-block ;
 }
 
 footer {
