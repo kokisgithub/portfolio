@@ -1,5 +1,5 @@
 body {
-  font-size: 15px;
+  font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
 }
@@ -17,19 +17,24 @@ header {
   background-size: cover;
 }
 
-.card-img-overlay h1 {
+h1 {
   font-weight: bold;
-  font-size: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
 }
 
 .card-img-overlay {
   padding-top: 10rem;
 }
 
-h1 {
+.card-img-overlay h1 {
   font-weight: bold;
-  padding-top: 5rem;
-  padding-bottom: 3rem;
+  font-size: 5rem;
+}
+
+nav {
+  border: 1px solid #3c6690;
+  background: linear-gradient(#829ebc,#225588);
 }
 
 .nav-link {
@@ -38,22 +43,38 @@ h1 {
 }
 
 section {
-  padding-bottom: 10%;
+  padding-bottom: 8rem;
+  background-color: #ffffe0;
+}
+
+#self-introduction {
+  font-size: 18px;
+  text-align: left;
+  line-height: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: inline-block;
 }
 
 .card {
-  background-color: #ffffe0;
-  margin-bottom: 10rem;
-}
-
-.list-inline-item {
-  padding-right: 20px;
+  background-color: #ffffd0;
+  margin-bottom: 5rem;
+  border: 1px solid #fcfcaa;
 }
 
 .card-title {
   font-weight: bold;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+#comment {
+  margin-bottom: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 2.5rem;
+  text-align: left;
+  display: inline-block;
 }
 
 .card-img {
@@ -68,14 +89,14 @@ section {
   padding-bottom: 20px;
 }
 
-#comment {
-  margin-bottom: 4rem;
-  line-height: 2rem;
-  text-align: left;
-  display: inline-block ;
+.list-inline-item {
+  padding-right: 20px;
 }
 
 footer {
   height: 80px;
   padding-top: 30px;
+  color: #acacac;
+  border: 1px solid #3c6690;
+  background-color:#225588;
 }
