@@ -10,7 +10,7 @@
   
   <body>
     <div id="wrap">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,13 +36,21 @@
         </div>
       </header>
       <div class="container-fluid text-center text-dark mx-auto px-0">
-        <section id="profile">  
-          <div class="row">
-            <div class="col">
+        <div class="row">
+          <div class="col">
+            <section id="profile">  
               <p><h1>PROFILE</h1></p>
-              <div id="self-introduction">
-                <p>名前：Koki</p>
-                <p>経歴：劇団で活動していましたが安定を求めて就職し、金融系のシステム運用センターに勤めて現在2年目になります。</p>
+              <div class="row justify-content-center">
+                <div class="col-7" id="self-introduction">
+                  <h5 class="lead">
+                    <p>
+                      長崎県出身。劇団で活動していましたが安定を求めて就職し、金融系のシステム運用センターに勤めて現在2年目になります。
+                    </p>
+                    <p>
+                      業務内容は主にシステムの起動・停止、ジョブのリリース・キャンセル・スケジュール及び稼働条件変更、障害連絡及び対応等です。
+                    </p>
+                  </h5>
+                </div>
               </div>
             </div>
           </div>
@@ -51,12 +59,17 @@
           <div class="row">
             <div class="col">
               <p><h1>WORKS</h1></p>
-              <div class="card mx-auto" style="width: 85%;">
+              <div class="card mx-auto shadow">
                 <div class="card-body">
                   <h4 class="card-title">個人的ランキング投稿サイト</h4>
-                  <h5 class="lead" id="comment">Laravelを利用した基本的な機能の実装を経験することが出来て、「世間ではあまり知られていないけれど実は優れているもの」を発掘するきっかけになるサイトがあったら楽しいだろうという理由から作成致しました。
-                  </h5>
-                  <img src="img/mytop3.png" class="card-img">
+                  <div class="row justify-content-center">
+                    <div class="col-11">
+                      <p><h5 class="lead" id="comment">
+                        Laravelを利用した基本的な機能の実装を経験することが出来て、「世間ではあまり知られていないけれど実は優れているもの」を発掘するきっかけになるサイトがあったら楽しいだろうという理由から作成致しました。
+                      </h5></p>
+                    </div>
+                  </div>
+                  <img src="img/mytop3.png" class="card-img shadow-sm">
                   <div class="row pb-3 text-left justify-content-center">
                     <div class="col-md-4 col-sm-12">
                       <div class="card-text">
@@ -96,16 +109,16 @@
                   </div>
                 </div>
               </div>
-              <div class="card mx-auto" style="width: 85%;">
+              <div class="card mx-auto shadow">
                 <div class="card-body">
                   <h4 class="card-title">学習時間記録サイト</h4>
-                  <h5 id="comment">PHPのDateTimeクラスとPDOを使った初めての成果物です。</h5>
+                  <p><h5 class="lead" id="comment">PHPのDateTimeクラスとPDOを使った初めての成果物です。</h5></p>
                   <div class="row justify-content-center pt-md-4">
-                    <div class="col-md-6 col-sm-12">
-                      <img src="img/time_manager_index.png" class="card-img" style="width: 100%; height: 100%;">
+                    <div class="col-md-6 col-sm-12 mb-4">
+                      <img src="img/time_manager_index.png" class="card-img shadow-sm">
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                      <img src="img/time_manager_result.png" class="card-img" style="width: 100%; height: 100%;">
+                    <div class="col-md-6 col-sm-12 mb-4">
+                      <img src="img/time_manager_result.png" class="card-img shadow-sm">
                     </div>
                   </div>
                   <div class="row pb-3 text-left justify-content-center">
@@ -146,6 +159,7 @@
       <footer class="text-center">
         <small>© 2021 Koki's Portfolio</small>
       </footer>
+      
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
