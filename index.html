@@ -10,17 +10,14 @@
   
   <body>
     <div id="wrap">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <nav class="navbar fixed-top navbar-expand navbar-dark shadow-sm">
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="#">TOP<span class="sr-only">(current)</span></a>
             </li> 
-            <li class="nav-item active px-lg-3">
-              <a class="nav-link" href="#profile">PROFILE</a>
+            <li class="nav-item active px-5">
+              <a class="nav-link" href="#about">ABOUT</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#works">WORKS</a>
@@ -38,16 +35,19 @@
       <div class="container-fluid text-center text-dark mx-auto px-0">
         <div class="row">
           <div class="col">
-            <section id="profile">  
-              <p><h1>PROFILE</h1></p>
-              <div class="row justify-content-center">
-                <div class="col-9" id="self-introduction">
+            <section id="about">  
+              <p><h1>ABOUT</h1></p>
+              <div class="row justify-content-center mx-auto">
+                <div class="col-md-4 col-sm-12">
+                  <img src="img/about.jpg" class="rounded-circle">
+                </div>
+                <div class="col-md-7 col-sm-12" id="self-introduction">
                   <h5 class="lead">
                     <p>
                       長崎県出身。大学卒業後に上京し、劇団で活動していましたが安定を求めて退団。昔から職人に対する憧れがあり、その中で今後も伸びていくであろうIT業界に惹かれ就職。金融系のシステム運用センターで運用管理及びオペレーター業務に従事して現在2年目。
                     </p>
                     <p>
-                      運用業務を経験していくうちに、誰かが作ったものを手順通りに作業していても手に職といえるほどのスキルは身に付かないと感じ、開発へのシフトを決意。
+                      運用業務を経験していくうちに、誰かが作ったものを手順通りに作業していても手に職といえるほどのスキルは付かないと感じ、開発へのシフトを決意。
                     </p>
                     <p>
                       実際に中で何が起こっているか実感しづらい業務システムに比べ、作ったものが視覚や感覚として伝わりやすいWeb開発に興味を持ち、独学を開始。
@@ -64,11 +64,11 @@
               <p><h1>WORKS</h1></p>
               <div class="card mx-auto shadow">
                 <div class="card-body">
-                  <h4 class="card-title">個人的ランキング<br class="d-inline d-sm-none" />投稿サイト</h4>
+                  <h4 class="card-title">個人的ランキング<br class="d-inline d-sm-none" />投稿アプリ</h4>
                   <div class="row justify-content-center">
                     <div class="col-11">
                       <p><h5 class="lead" id="comment">
-                        Laravelを利用した基本的な機能の実装を経験することが出来て、「世間ではあまり知られていないけれど実は優れているもの」を発掘するきっかけになるサイトがあったら楽しいだろうという理由から作成致しました。
+                        Laravelを利用した基本的な機能の実装を経験することが出来て、「世間ではあまり知られていないけれど実は優れているもの」を発掘するきっかけになるアプリがあったら楽しいだろうという理由から作成致しました。
                       </h5></p>
                     </div>
                   </div>
@@ -107,14 +107,14 @@
                     </div>
                   </div>
                   <div class="my-md-4 my-sm-2">
-                    <a href="https://laravelmytop3.herokuapp.com" target="_blank" class="btn btn-lg btn-primary mr-5">開く</a>
-                    <a href="https://github.com/kokisgithub/MyTop3" target="_blank" class="btn btn-lg btn-dark">GitHub</a>
+                    <a href="https://laravelmytop3.herokuapp.com" target="_blank" class="btn btn-primary">アプリを開く</a>
+                    <a href="https://github.com/kokisgithub/MyTop3" target="_blank" class="btn btn-dark">GitHub</a>
                   </div>
                 </div>
               </div>
               <div class="card mx-auto shadow">
                 <div class="card-body">
-                  <h4 class="card-title">学習時間記録サイト</h4>
+                  <h4 class="card-title">学習時間記録アプリ</h4>
                   <p><h5 class="lead" id="comment">PHPのDateTimeクラスとPDOを使った初めての成果物です。</h5></p>
                   <div class="row justify-content-center pt-md-4">
                     <div class="col-md-6 col-sm-12 mb-4">
@@ -150,7 +150,7 @@
                     </div>
                   </div>
                   <div class="my-md-4 my-sm-2">
-                    <a href="https://github.com/kokisgithub/time_manager" target="_blank" class="btn btn-lg btn-dark">GitHub</a>
+                    <a href="https://github.com/kokisgithub/time_manager" target="_blank" class="btn btn-dark">GitHub</a>
                   </div>
                 </div>
               </div>
