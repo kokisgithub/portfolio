@@ -26,7 +26,8 @@ h1 {
 }
 
 .card-img-overlay {
-  padding-top: 10rem;
+  padding-top: 5.5rem;
+  color: #ffffa0;
 }
 
 .card-img-overlay h1 {
