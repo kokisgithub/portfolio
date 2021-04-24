@@ -10,7 +10,9 @@ body {
 }
 
 header {
-  min-height: 625px;
+  width: 100%;
+  height: auto;
+  min-height: 657px;
   background-image: url(../img/header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
