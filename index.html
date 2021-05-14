@@ -10,17 +10,20 @@
   
   <body>
     <div id="wrap">
-      <nav class="navbar fixed-top navbar-expand navbar-dark shadow-sm">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#" style="color:#ffffa0;">TOP<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#" style="color:#ffffa0;" onclick="$('#navbarNav').collapse('hide')">TOP<span class="sr-only">(current)</span></a>
             </li> 
-            <li class="nav-item active px-md-5 px-sm-3">
-              <a class="nav-link" href="#about" style="color:#ffffa0;">ABOUT</a>
+            <li class="nav-item active px-lg-5">
+              <a class="nav-link" href="#about" style="color:#ffffa0;" onclick="$('#navbarNav').collapse('hide')">ABOUT</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#works" style="color:#ffffa0;">WORKS</a>
+              <a class="nav-link" href="#works" style="color:#ffffa0;" onclick="$('#navbarNav').collapse('hide')">WORKS</a>
             </li>
           </ul>
         </div>
@@ -75,7 +78,22 @@
                       </h6></p>
                     </div>
                   </div>
-                  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-secondary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-secondary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-secondary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="3" class="bg-secondary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="4" class="bg-secondary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="5" class="bg-secondary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="6" class="bg-secondary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="7" class="bg-secondary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="8" class="bg-secondary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="9" class="bg-secondary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="10" class="bg-secondary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="11" class="bg-secondary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="12" class="bg-secondary"></li>
+                    </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img src="img/mt3_before_login.png" class="card-img shadow-sm" id="works_img">
@@ -117,15 +135,16 @@
                         <img src="img/mt3_admin_login.png" class="card-img shadow-sm" id="works_img">
                       </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                       <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
                       <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                       <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
                       <span class="sr-only">Next</span>
                     </a>
                   </div>
+
                   <div class="row pb-3 text-left justify-content-center">
                     <div class="col-md-4 col-sm-12">
                       <div class="card-text">
@@ -179,7 +198,12 @@
                       </h6></p>
                     </div>
                   </div>
-                  <div id="carouselExampleFade_2" class="carousel slide carousel-fade" data-ride="carousel">
+                  
+                  <div id="carouselExampleIndicators_2" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators_2" data-slide-to="0" class="active bg-secondary"></li>
+                      <li data-target="#carouselExampleIndicators_2" data-slide-to="1" class="bg-secondary"></li>
+                    </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img src="img/tm_index.png" class="card-img shadow-sm" id="works_img">
@@ -188,15 +212,16 @@
                         <img src="img/tm_result.png" class="card-img shadow-sm" id="works_img">
                       </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleFade_2" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators_2" role="button" data-slide="prev">
                       <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
                       <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleFade_2" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#carouselExampleIndicators_2" role="button" data-slide="next">
                       <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
                       <span class="sr-only">Next</span>
                     </a>
                   </div>
+
                   <div class="row pb-3 text-left justify-content-center">
                     <div class="col-md-4 col-sm-12">
                       <div class="card-text">
