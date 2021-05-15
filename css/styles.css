@@ -38,7 +38,27 @@ header {
   color: #ffffa0;
   font-size: 3rem;
   font-weight: bold;
+  opacity:0;
+  animation-name: h_title;
+  animation-duration: 4s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
 }
+
+@keyframes h_title {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+  40%, 50% {
+    opacity: 0.2;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 
 
 @media (min-width: 769px) {
   header {
