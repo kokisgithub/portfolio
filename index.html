@@ -39,12 +39,12 @@
         <div class="row">
           <div class="col">
             <section id="about">  
-              <p><h1 style="color:#225588;">ABOUT</h1></p>
+              <p><h1 style="color:#225588;" id="scroll">ABOUT</h1></p>
               <div class="row justify-content-center mx-auto">
                 <div class="col-lg-4 col-md-12">
-                  <img src="img/about.jpg" class="rounded-circle shadow-sm">
+                  <img src="img/about.jpg" class="rounded-circle shadow-sm about_img" id="scroll">
                 </div>
-                <div class="col-lg-7 col-md-12" id="self-introduction">
+                <div class="col-lg-7 col-md-12 self-introduction">
                   <h6 class="lead">
                     <p>
                       長崎県出身。大学卒業後に上京し、劇団で活動していたが区切りをつけて退団。昔から職人に対する憧れがあり、その中で今後も伸びていくであろうIT業界に惹かれ就職。金融系のシステム運用センターにて基幹システムの運用管理及びオペレーター業務に従事して現在2年目。
@@ -67,13 +67,13 @@
         <section id="works">
           <div class="row">
             <div class="col">
-              <p><h1 style="color:#225588;">WORKS</h1></p>
-              <div class="card mx-auto shadow">
+              <p><h1 style="color:#225588;" id="scroll">WORKS</h1></p>
+              <div class="card mx-auto shadow"id="scroll">
                 <div class="card-body">
                   <h4 class="card-title">個人的ランキング<br class="d-inline d-sm-none" />投稿アプリ</h4>
                   <div class="row justify-content-center">
                     <div class="col-md-11 col-sm-12">
-                      <p><h6 class="lead" id="comment">
+                      <p><h6 class="lead comment">
                         作成に至った理由は二つあります。一つはLaravelで基本的な機能実装の経験を積めること。<br class="d-lg-inline d-none" />もう一つは私の趣味が映画鑑賞と音楽鑑賞ということもあり、業界人や評論家等が選んだランキングをサイトや雑誌等でよく見ており、それと同じことを趣味の合う友人と「今年観た映画トップ3教えて」という様な一種の遊びとしてやっていたため、投票での総合的なランキングだけではなく、個人のランキングを投稿し合うサービスがあったら楽しいのではないかという考えから作成致しました。
                       </h6></p>
                     </div>
@@ -96,43 +96,43 @@
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="img/mt3_before_login.png" class="card-img shadow-sm" id="works_img">
+                        <img src="img/mt3_before_login.png" class="card-img shadow-sm works_img">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/mt3_register.png" class="card-img shadow-sm" id="works_img">
+                        <img src="img/mt3_register.png" class="card-img shadow-sm works_img">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/mt3_login.png" class="card-img shadow-sm" id="works_img">
+                        <img src="img/mt3_login.png" class="card-img shadow-sm works_img">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/mt3_after_login.png" class="card-img shadow-sm" id="works_img">
+                        <img src="img/mt3_after_login.png" class="card-img shadow-sm works_img">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/mt3_pagination.png" class="card-img shadow-sm" id="works_img">
+                        <img src="img/mt3_pagination.png" class="card-img shadow-sm works_img">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/mt3_article.png" class="card-img shadow-sm" id="works_img">
+                        <img src="img/mt3_article.png" class="card-img shadow-sm works_img">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/mt3_create_1.png" class="card-img shadow-sm" id="works_img">
+                        <img src="img/mt3_create_1.png" class="card-img shadow-sm works_img">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/mt3_create_2.png" class="card-img shadow-sm" id="works_img">
+                        <img src="img/mt3_create_2.png" class="card-img shadow-sm works_img">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/mt3_edit.png" class="card-img shadow-sm" id="works_img">
+                        <img src="img/mt3_edit.png" class="card-img shadow-sm works_img">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/mt3_delete.png" class="card-img shadow-sm" id="works_img">
+                        <img src="img/mt3_delete.png" class="card-img shadow-sm works_img">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/mt3_upload.png" class="card-img shadow-sm" id="works_img">
+                        <img src="img/mt3_upload.png" class="card-img shadow-sm works_img">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/mt3_admin_register.png" class="card-img shadow-sm" id="works_img">
+                        <img src="img/mt3_admin_register.png" class="card-img shadow-sm works_img">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/mt3_admin_login.png" class="card-img shadow-sm" id="works_img">
+                        <img src="img/mt3_admin_login.png" class="card-img shadow-sm works_img">
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -148,8 +148,8 @@
                   <div class="row pb-3 text-left justify-content-center">
                     <div class="col-md-4 col-sm-12">
                       <div class="card-text">
-                        <ul class="list-unstyled" id="list">
-                          <p><h5 class="pb-2" id="item">開発環境</h5></p>
+                        <ul class="list-unstyled list">
+                          <p><h5 class="pb-2 item">開発環境</h5></p>
                           <li>仮想マシン: VMware Workstation 15 Player</li>
                           <li>OS: CentOS 8.2</li>
                           <li>言語: PHP 7.4 / HTML / CSS</li>
@@ -160,8 +160,8 @@
                     </div>
                     <div class="col-md-7 col-sm-12">
                       <div class="card-text">
-                        <ul class="list-inline" id="list">
-                          <p><h5 class="pb-2" id="item">機能</h5></p>
+                        <ul class="list-inline list">
+                          <p><h5 class="pb-2 item">機能</h5></p>
                           <li class="list-inline-item">記事一覧画面</li>
                           <li class="list-inline-item">記事詳細画面</li>
                           <li class="list-inline-item">記事投稿 / 編集 / 削除</li>
@@ -193,7 +193,7 @@
                   <h4 class="card-title">学習時間記録アプリ</h4>
                   <div class="row justify-content-center">
                     <div class="col-md-11 col-sm-12">
-                      <p><h6 class="lead" id="comment">
+                      <p><h6 class="lead comment">
                         プログラミングの独学を始めて3ヶ月頃に、勤怠システムのような学習時間等を打刻できるアプリが欲しいと思い、<br class="d-lg-inline d-none" />PHPのPDOとDateTimeクラスの勉強も兼ねて作成致しました。
                       </h6></p>
                     </div>
@@ -206,10 +206,10 @@
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="img/tm_index.png" class="card-img shadow-sm" id="works_img">
+                        <img src="img/tm_index.png" class="card-img shadow-sm works_img">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/tm_result.png" class="card-img shadow-sm" id="works_img">
+                        <img src="img/tm_result.png" class="card-img shadow-sm works_img">
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators_2" role="button" data-slide="prev">
@@ -225,8 +225,8 @@
                   <div class="row pb-3 text-left justify-content-center">
                     <div class="col-md-4 col-sm-12">
                       <div class="card-text">
-                        <ul class="list-unstyled" id="list">
-                          <p><h5 class="pb-2" id="item">開発環境</h5></p>
+                        <ul class="list-unstyled list">
+                          <p><h5 class="pb-2 item">開発環境</h5></p>
                           <li>仮想マシン: VMware Workstation 15 Player</li>
                           <li>OS: CentOS 8.0</li>
                           <li>言語: PHP 7.2 / HTML / CSS</li>
@@ -237,8 +237,8 @@
                     </div>
                     <div class="col-md-5 col-sm-12">
                       <div class="card-text">
-                        <ul class="list-unstyled" id="list">
-                          <p><h5 class="pb-2" id="item">機能</h5></p>
+                        <ul class="list-unstyled list">
+                          <p><h5 class="pb-2 item">機能</h5></p>
                           <li>日付と開始時刻、終了時刻及び差分の時間登録</li>
                           <li>月別の合計時間 / 総合時間 / 総合登録件数 / 各登録内容の表示 </li>
                           <li>登録内容削除</li>
@@ -262,6 +262,7 @@
       </footer>
       
     </div>
+    <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
