@@ -172,12 +172,12 @@ section h1 {
   } 
 }
 
-.item {
+.card-text h5 {
   margin-top: 5rem;
   font-weight: bold;
 }
 
-.list li {
+.card-text li {
   padding-bottom: 20px;
 }
 
