@@ -61,200 +61,217 @@
                   </h6>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
-        </section>
-        <section id="works">
-          <div class="row">
-            <div class="col">
+        </div>
+        <div class="row">
+          <div class="col">
+            <section id="works">
               <p><h1 style="color:#225588;" id="scroll">WORKS</h1></p>
-              <div class="card mx-auto shadow">
-                <div class="card-body">
-                  <h4 class="card-title">個人的ランキング<br class="d-inline d-sm-none" />投稿アプリ</h4>
-                  <div class="row justify-content-center">
-                    <div class="col-md-11 col-sm-12">
-                      <p><h6 class="lead comment">
-                        作成に至った理由は二つあります。一つはLaravelで基本的な機能実装の経験を積めること。<br class="d-lg-inline d-none" />もう一つは私の趣味が映画鑑賞と音楽鑑賞ということもあり、業界人や評論家等が選んだランキングをサイトや雑誌等でよく見ており、それと同じことを趣味の合う友人と「今年観た映画トップ3教えて」という様な一種の遊びとしてやっていたため、投票での総合的なランキングだけではなく、個人のランキングを投稿し合うサービスがあったら楽しいのではないかという考えから作成致しました。
-                      </h6></p>
+              
+              <div class="row justify-content-center mx-auto">
+                <!-- Modal -->
+                <div class="col-md-4 col-sm-12">
+                  <img src="img/mt3_before_login.png" class="modal_img" id="scroll" data-toggle="modal" data-target="#exampleModalLong">
+                  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-xl" role="document">
+                      <div class="modal-content">
+                        <div class="modal-body">                
+                          <svg xmlns="http://www.w3.org/2000/svg" data-dismiss="modal" fill="currentColor" class="bi bi-x-circle-fill float-right" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+                          </svg>
+                          <h5 class="work-title">個人的ランキング投稿アプリ</h5>
+                          <div class="row justify-content-center">
+                            <div class="col-md-11 col-sm-12">
+                              <p class="work-comment">
+                                作成に至った理由は二つあります。<br class="d-lg-inline d-none" />一つはLaravelを使用した基本的な機能実装の経験を積めること。もう一つは業界人や評論家、ファン等が投票で選んだ総合的なランキングではなく、個人のランキングを投稿し合うサービスがあったら新しい発見もあって楽しいのではないだろうかという考えから作成致しました。
+                              </p>
+                            </div>
+                           </div>
+                          <div class="row pb-3 text-left justify-content-center work-text">
+                            <div class="col-md-5 col-sm-12">
+                              <ul class="list-unstyled">
+                                <p class="pb-2 skill-list">開発環境</p>
+                                <li>仮想マシン: VMware Workstation 15 Player</li>
+                                <li>OS: CentOS 8.2</li>
+                                <li>言語: PHP 7.4 / HTML / CSS</li>
+                                <li>Framework: Laravel 6.2 / Bootstrap 4.5</li>
+                                <li>DB: MySQL 8.0</li>    
+                              </ul>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <ul class="list-inline">
+                                <p class="pb-2 skill-list">機能</p>
+                                <li class="list-inline-item">記事一覧画面</li>
+                                <li class="list-inline-item">記事詳細画面</li>
+                                <li class="list-inline-item">記事投稿 / 編集 / 削除</li>
+                                <li class="list-inline-item">コメント投稿 / 削除</li>
+                                <li class="list-inline-item">バリデーション</li>
+                                <li class="list-inline-item">DBリレーション</li>
+                                <li class="list-inline-item">タイトル検索</li>
+                                <li class="list-inline-item">ページネーション</li>
+                                <li class="list-inline-item">ユーザー / 管理者登録</li>
+                                <li class="list-inline-item">ユーザー / 管理者ログイン</li>
+                                <li class="list-inline-item">プロフィール画像アップロード</li>
+                                <li class="list-inline-item">テスト: 単体 / HTTP / DB / 認証</li>
+                              </ul>
+                            </div>
+                          </div>
+                          <!-- Carousel -->
+                          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-secondary"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-secondary"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-secondary"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="3" class="bg-secondary"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="4" class="bg-secondary"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="5" class="bg-secondary"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="6" class="bg-secondary"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="7" class="bg-secondary"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="8" class="bg-secondary"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="9" class="bg-secondary"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="10" class="bg-secondary"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="11" class="bg-secondary"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="12" class="bg-secondary"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="img/mt3_before_login.png" class="card-img shadow-sm work-img">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/mt3_register.png" class="card-img shadow-sm work-img">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/mt3_login.png" class="card-img shadow-sm work-img">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/mt3_after_login.png" class="card-img shadow-sm work-img">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/mt3_pagination.png" class="card-img shadow-sm work-img">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/mt3_article.png" class="card-img shadow-sm work-img">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/mt3_create_1.png" class="card-img shadow-sm work-img">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/mt3_create_2.png" class="card-img shadow-sm work-img">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/mt3_edit.png" class="card-img shadow-sm work-img">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/mt3_delete.png" class="card-img shadow-sm work-img">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/mt3_upload.png" class="card-img shadow-sm work-img">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/mt3_admin_register.png" class="card-img shadow-sm work-img">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/mt3_admin_login.png" class="card-img shadow-sm work-img">
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                          <div class="row justify-content-center">
+                            <div class="col-md-3 col-sm-12">
+                              <a href="https://laravelmytop3.herokuapp.com" target="_blank" class="btn btn-primary">アプリを開く</a>
+                            </div>
+                            <div class="col-md-3 col-sm-12">
+                              <a href="https://github.com/kokisgithub/MyTop3" target="_blank" class="btn btn-dark">GitHub</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-secondary"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-secondary"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-secondary"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="3" class="bg-secondary"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="4" class="bg-secondary"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="5" class="bg-secondary"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="6" class="bg-secondary"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="7" class="bg-secondary"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="8" class="bg-secondary"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="9" class="bg-secondary"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="10" class="bg-secondary"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="11" class="bg-secondary"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="12" class="bg-secondary"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="img/mt3_before_login.png" class="card-img shadow-sm works_img">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/mt3_register.png" class="card-img shadow-sm works_img">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/mt3_login.png" class="card-img shadow-sm works_img">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/mt3_after_login.png" class="card-img shadow-sm works_img">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/mt3_pagination.png" class="card-img shadow-sm works_img">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/mt3_article.png" class="card-img shadow-sm works_img">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/mt3_create_1.png" class="card-img shadow-sm works_img">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/mt3_create_2.png" class="card-img shadow-sm works_img">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/mt3_edit.png" class="card-img shadow-sm works_img">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/mt3_delete.png" class="card-img shadow-sm works_img">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/mt3_upload.png" class="card-img shadow-sm works_img">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/mt3_admin_register.png" class="card-img shadow-sm works_img">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/mt3_admin_login.png" class="card-img shadow-sm works_img">
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-
-                  <div class="row pb-3 text-left justify-content-center">
-                    <div class="col-md-4 col-sm-12">
-                      <div class="card-text">
-                        <ul class="list-unstyled">
-                          <p><h5 class="pb-2">開発環境</h5></p>
-                          <li>仮想マシン: VMware Workstation 15 Player</li>
-                          <li>OS: CentOS 8.2</li>
-                          <li>言語: PHP 7.4 / HTML / CSS</li>
-                          <li>Framework: Laravel 6.2 / Bootstrap 4.5</li>
-                          <li>DB: MySQL 8.0</li>    
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col-md-7 col-sm-12">
-                      <div class="card-text">
-                        <ul class="list-inline">
-                          <p><h5 class="pb-2">機能</h5></p>
-                          <li class="list-inline-item">記事一覧画面</li>
-                          <li class="list-inline-item">記事詳細画面</li>
-                          <li class="list-inline-item">記事投稿 / 編集 / 削除</li>
-                          <li class="list-inline-item">コメント投稿 / 削除</li>
-                          <li class="list-inline-item">バリデーション</li>
-                          <li class="list-inline-item">DBリレーション</li>
-                          <li class="list-inline-item">タイトル検索</li>
-                          <li class="list-inline-item">ページネーション</li>
-                          <li class="list-inline-item">ユーザー / 管理者登録</li>
-                          <li class="list-inline-item">ユーザー / 管理者ログイン</li>
-                          <li class="list-inline-item">プロフィール画像アップロード</li>
-                          <li class="list-inline-item">テスト: 単体 / HTTP / DB / 認証</li>
-                        </ul>
+                  <p class="small-title">個人的ランキング投稿アプリ</p>
+                </div>
+                
+                <!-- Modal -->
+                <div class="col-md-4 col-sm-12">
+                  <img src="img/tm_index.png" class="modal_img" id="scroll" data-toggle="modal" data-target="#exampleModalLong_2">
+                  <div class="modal fade" id="exampleModalLong_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-xl" role="document">
+                      <div class="modal-content">
+                        <div class="modal-body">                
+                          <svg xmlns="http://www.w3.org/2000/svg" data-dismiss="modal" fill="currentColor" class="bi bi-x-circle-fill float-right" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+                          </svg>
+                          <h5 class="work-title">学習時間記録アプリ</h5>
+                          <div class="row justify-content-center">
+                            <div class="col-md-11 col-sm-12">
+                              <p class="work-comment">
+                                プログラミングの独学を始めて3ヶ月頃に、勤怠システムのような学習時間等を打刻できるアプリが欲しいと思い、<br class="d-lg-inline d-none" />PHPのPDOとDateTimeクラスの勉強も兼ねて作成致しました。
+                              </p>  
+                            </div>  
+                          </div>  
+                          <div class="row pb-3 text-left justify-content-center work-text">
+                            <div class="col-md-5 col-sm-12">              
+                              <ul class="list-unstyled">
+                                <p class="pb-2 skill-list">開発環境</p>
+                                <li>仮想マシン: VMware Workstation 15 Player</li>
+                                <li>OS: CentOS 8.0</li>
+                                <li>言語: PHP 7.2 / HTML / CSS</li>
+                                <li>Framework: Bootstrap 4.5</li>
+                                <li>DB: MySQL 8.0</li>    
+                              </ul>  
+                            </div> 
+                            <div class="col-md-6 col-sm-12">
+                              <ul class="list-unstyled">
+                                <p class="pb-2 skill-list">機能</p>
+                                <li>日付と開始時刻、終了時刻及び差分の時間登録</li>
+                                <li>月別の合計時間 / 総合時間 / 総合登録件数 / 各登録内容の表示 </li>
+                                <li>登録内容削除</li>
+                                <li>トークンによるCSRF対策</li>
+                              </ul>
+                            </div>  
+                          </div>  
+                          <!-- Carousel -->
+                          <div id="carouselExampleIndicators_2" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleIndicators_2" data-slide-to="0" class="active bg-secondary"></li>
+                              <li data-target="#carouselExampleIndicators_2" data-slide-to="1" class="bg-secondary"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="img/tm_index.png" class="card-img shadow-sm work-img">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/tm_result.png" class="card-img shadow-sm work-img">
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators_2" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators_2" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                          <a href="https://github.com/kokisgithub/time_manager" target="_blank" class="btn btn-dark">GitHub</a>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class="row justify-content-center">
-                    <div class="col-md-3 col-sm-12">
-                      <a href="https://laravelmytop3.herokuapp.com" target="_blank" class="btn btn-primary">アプリを開く</a>
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                      <a href="https://github.com/kokisgithub/MyTop3" target="_blank" class="btn btn-dark">GitHub</a>
-                    </div>
-                  </div>
+                  <p class="small-title">学習時間記録アプリ</p>
                 </div>
               </div>
-              <div class="card mx-auto shadow">
-                <div class="card-body">
-                  <h4 class="card-title">学習時間記録アプリ</h4>
-                  <div class="row justify-content-center">
-                    <div class="col-md-11 col-sm-12">
-                      <p><h6 class="lead comment">
-                        プログラミングの独学を始めて3ヶ月頃に、勤怠システムのような学習時間等を打刻できるアプリが欲しいと思い、<br class="d-lg-inline d-none" />PHPのPDOとDateTimeクラスの勉強も兼ねて作成致しました。
-                      </h6></p>
-                    </div>
-                  </div>
-                  
-                  <div id="carouselExampleIndicators_2" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators_2" data-slide-to="0" class="active bg-secondary"></li>
-                      <li data-target="#carouselExampleIndicators_2" data-slide-to="1" class="bg-secondary"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="img/tm_index.png" class="card-img shadow-sm works_img">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/tm_result.png" class="card-img shadow-sm works_img">
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators_2" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators_2" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-
-                  <div class="row pb-3 text-left justify-content-center">
-                    <div class="col-md-4 col-sm-12">
-                      <div class="card-text">
-                        <ul class="list-unstyled">
-                          <p><h5 class="pb-2">開発環境</h5></p>
-                          <li>仮想マシン: VMware Workstation 15 Player</li>
-                          <li>OS: CentOS 8.0</li>
-                          <li>言語: PHP 7.2 / HTML / CSS</li>
-                          <li>Framework: Bootstrap 4.5</li>
-                          <li>DB: MySQL 8.0</li>    
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col-md-5 col-sm-12">
-                      <div class="card-text">
-                        <ul class="list-unstyled">
-                          <p><h5 class="pb-2">機能</h5></p>
-                          <li>日付と開始時刻、終了時刻及び差分の時間登録</li>
-                          <li>月別の合計時間 / 総合時間 / 総合登録件数 / 各登録内容の表示 </li>
-                          <li>登録内容削除</li>
-                          <li>トークンによるCSRF対策</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="my-md-4 my-sm-2">
-                    <a href="https://github.com/kokisgithub/time_manager" target="_blank" class="btn btn-dark">GitHub</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </section>
           </div>
-        </section>
+        </div>
       </div>
       
       <footer class="text-center">

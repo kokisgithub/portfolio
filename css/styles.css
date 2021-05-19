@@ -72,14 +72,12 @@ header {
 } 
 
 section {
-  padding-top: 2rem;
-  padding-bottom: 6rem;
+  padding: 2rem 0 7rem;
 }
 
 section h1 {
   font-weight: bold;
-  margin-top: 4rem;
-  margin-bottom: 6rem;
+  margin: 6rem 0 6rem;
   opacity: 0;
   transform: translateY(75px);
   transition: opacity .3s, transform .3s;
@@ -92,13 +90,13 @@ section h1 {
 #works {
   background-color: #ffffa0;
   border-top: 1px solid #fcfc88;
+  padding-bottom: 10rem;
 }
 
 .about_img {
   width: 250px;
   height: 250px;
-  margin-top: 3rem;
-  margin-bottom: 5rem;
+  margin: 3rem 0 5rem;
   opacity: 0;
   transform: scale(0.5, 0.5);
   transition: opacity .3s, transform .3s;
@@ -113,31 +111,53 @@ section h1 {
   margin-top: 2rem;
   text-align: left;
   line-height: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding:0 1rem 0;
   display: inline-block;
 }
 
-.card {
-  width: 95%;
+.modal_img {
+  width: 320px;
+  height: 200px;
+  margin: 30px 0 0;
+  cursor: pointer;
+  box-shadow: 0 1px 2px #666;
+  transform: translateY(200px);
+  transition: opacity .2s, transform .2s;
+}
+
+.modal_img:hover {
+  box-shadow: 0 7px 14px #666;
+  opacity: 0.7;
+  transform: translate(-5px, -5px);
+}
+
+.small-title {
+  padding-top: 15px;
+  font-size: 17px;
+}
+
+.modal-content {
   background-color: #ffffe0;
   padding-bottom: 3rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
   border: 1px solid #fcfc88;
 }
 
-.card-title {
-  font-weight: bold;
-  padding-top: 5.5rem;
-  padding-bottom: 2rem;
+.bi-x-circle-fill {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  color:#225588;
+}
+
+.work-title {
+  font-weight: 600;
+  padding: 2rem 0 3rem;
   line-height: 2rem;
   text-align: left;
   display: inline-block;
 }
 
-.comment {
-  margin-bottom: 4rem;
+.work-comment {
   line-height: 2.0rem;
   text-align: left;
   display: inline-block;
@@ -145,17 +165,30 @@ section h1 {
   display: inline-block;
 }
 
-.works_img {
+.skill-list {
+  font-size: 19px;
+  margin-top: 2rem;
+}
+
+.work-text li {
+  line-height: 2.0rem;
+}
+
+.work-img {
   width: 100%;
   height: auto;
-  max-width: 700px;
+  max-width: 800px;
   min-width: 300px;
   max-height: 500px;
-  min-height: 420px;
+  min-height: 470px;
+}
+
+.carousel {
+  margin: 2rem 0 5rem;
 }
 
 @media (max-width: 769px) {
-  .works_img {
+  .work-img {
     max-width: 400px;
     min-width: 300px;
     max-height: 300px;
@@ -164,25 +197,12 @@ section h1 {
 }
 
 @media (max-width: 415px) {
-  .works_img {
+  .work-img {
     max-width: 350px;
     min-width: 200px;
     max-height: 300px;
     min-height: 205px;
   } 
-}
-
-.card-text h5 {
-  margin-top: 5rem;
-  font-weight: bold;
-}
-
-.card-text li {
-  padding-bottom: 20px;
-}
-
-.list-inline-item {
-  padding-right: 20px;
 }
 
 .btn {
