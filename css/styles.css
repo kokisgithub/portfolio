@@ -77,7 +77,7 @@ section {
 
 section h1 {
   font-weight: bold;
-  margin: 6rem 0 6rem;
+  margin: 6rem 0 5rem;
   opacity: 0;
   transform: translateY(75px);
   transition: opacity .3s, transform .3s;
@@ -94,8 +94,8 @@ section h1 {
 }
 
 .about_img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   margin: 3rem 0 5rem;
   opacity: 0;
   transform: scale(0.5, 0.5);
@@ -110,25 +110,26 @@ section h1 {
 .self-introduction {
   margin-top: 2rem;
   text-align: left;
-  line-height: 2rem;
+  font-size: 18px;
+  line-height: 1.5rem;
   padding:0 1rem 0;
   display: inline-block;
 }
 
-.modal_img {
+ .modal_img {
   width: 320px;
   height: 200px;
   margin: 30px 0 0;
   cursor: pointer;
   box-shadow: 0 1px 2px #666;
+  opacity: 0;
   transform: translateY(200px);
-  transition: opacity .2s, transform .2s;
+  transition: opacity .3s, transform .3s;
 }
 
 .modal_img:hover {
-  box-shadow: 0 7px 14px #666;
   opacity: 0.7;
-  transform: translate(-5px, -5px);
+  box-shadow: 0 7px 14px #666;
 }
 
 .small-title {
