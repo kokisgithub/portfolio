@@ -40,7 +40,7 @@ header {
   font-weight: bold;
   opacity:0;
   animation-name: h_title;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
 }
@@ -71,6 +71,11 @@ header {
   }
 } 
 
+#scroll.appear {
+  opacity: 1;
+  transform: translate(0, 0) scale(1, 1);
+}
+
 section {
   padding: 2rem 0 7rem;
 }
@@ -79,7 +84,6 @@ section h1 {
   font-weight: bold;
   margin: 6rem 0 5rem;
   opacity: 0;
-  transform: translateY(75px);
   transition: opacity .3s, transform .3s;
 }
 
@@ -93,22 +97,25 @@ section h1 {
   padding-bottom: 10rem;
 }
 
+#about h1 {
+  transform: translateX(200px);
+}
+
+#works h1 {
+  transform: translateX(-200px);
+}
+
 .about_img {
   width: 200px;
   height: 200px;
-  margin: 3rem 0 5rem;
+  margin: 2rem 0 4rem;
   opacity: 0;
   transform: scale(0.5, 0.5);
   transition: opacity .3s, transform .3s;
 }
 
-#scroll.appear {
-  opacity: 1;
-  transform: translateX(0) translateY(0) scale(1, 1);
-}
-
 .self-introduction {
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: left;
   font-size: 18px;
   line-height: 1.5rem;
@@ -116,14 +123,14 @@ section h1 {
   display: inline-block;
 }
 
- .modal_img {
+.modal_img {
   width: 320px;
   height: 200px;
   margin: 30px 0 0;
   cursor: pointer;
   box-shadow: 0 1px 2px #666;
   opacity: 0;
-  transform: translateY(200px);
+  transform: translateY(25px);
   transition: opacity .3s, transform .3s;
 }
 
@@ -144,10 +151,30 @@ section h1 {
 }
 
 .bi-x-circle-fill {
-  width: 25px;
-  height: 25px;
-  cursor: pointer;
+  position: fixed;
+  top: 45px;
+  right: 145px;
+  margin: 0;
+  width: 30px;
+  height: 30px;
   color:#225588;
+  opacity: 0.4;
+  cursor: pointer;
+  z-index: 1;
+}
+
+@media (max-width: 800px) {
+  .bi-x-circle-fill {
+    top: 50px;
+    right: 150px;
+  } 
+}
+
+@media (max-width: 540px) {
+  .bi-x-circle-fill {
+    top: 15px;
+    right: 15px;
+  } 
 }
 
 .work-title {

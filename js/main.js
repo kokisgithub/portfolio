@@ -17,7 +17,7 @@
   const options = {
     root: null,
     threshold: 0,
-    rootMargin: '0px 0px -30px',
+    rootMargin: '0px 0px -80px',
   };
 
   const observer = new IntersectionObserver(callback, options);
