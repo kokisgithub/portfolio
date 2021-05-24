@@ -40,7 +40,7 @@ header {
   font-weight: bold;
   opacity:0;
   animation-name: h_title;
-  animation-duration: 1.5s;
+  animation-duration: 1.2s;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
 }
@@ -130,7 +130,7 @@ section h1 {
   cursor: pointer;
   box-shadow: 0 1px 2px #666;
   opacity: 0;
-  transform: translateY(25px);
+  transform: translateY(40px);
   transition: opacity .3s, transform .3s;
 }
 
