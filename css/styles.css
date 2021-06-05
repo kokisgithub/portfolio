@@ -36,7 +36,7 @@ header {
 
 .header-title {
   position: absolute;
-  top: calc(50% - 50px);
+  top: calc(50% - 75px);
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
@@ -165,8 +165,8 @@ section h1 {
 
 .bi-x-circle-fill {
   position: fixed;
-  top: 45px;
-  right: 145px;
+  top: 50px;
+  right: 170px;
   margin: 0;
   width: 30px;
   height: 30px;
